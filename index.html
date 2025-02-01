@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Ulang Tahun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Halaman Pertama -->
+    <div id="page1" class="page">
+        <div class="birthday-box">
+            <h1>🎉 Selamat Ulang Tahun Mama! 🎉</h1>
+            <p>Tekan tombol di bawah untuk melihat kejutan spesial!</p>
+            <button onclick="nextPage()">Lihat Kejutan 🎂</button>
+        </div>
+    </div>
+
+    <!-- Halaman Kedua -->
+    <div id="page2" class="page hidden">
+        <div class="birthday-card">
+            <h1 class="animated-text">🎂 Selamat Ulang Tahun Mama! 🎂</h1>
+            
+            <div class="cake">
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+
+            <img src="foto.jpg" alt="Foto Orang yang Berulang Tahun" class="profile-pic">
+            <h2 class="name">Mama Tersayang</h2>
+            <p class="message">Semoga panjang umur, sehat selalu, Selalu diberikan Kesehatan dan kiranya Tuhan selalu melindungi Mama! 🎊</p>
+            <p class="message">Amin🙏</p>
+          <div id="confetti-container"></div>
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
